@@ -14,6 +14,7 @@ namespace WindowsFormsApp2
     public partial class Form1 : Form
     {
         Alumnos misAlumnos = new Alumnos();
+        Alumnos misAlumnos2 = new Alumnos();
 
         public Form1()
         {
@@ -33,9 +34,7 @@ namespace WindowsFormsApp2
         }
     }
 
-
-
-
+    
     class Alumno
     {
         private string nombre;
